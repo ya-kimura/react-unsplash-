@@ -1,0 +1,15 @@
+form.flexContainer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.inputStyle{
+    font-size: 1.5em;
+    padding: 3px;
+    display: inline-block;
+    width: 50%;
+}
