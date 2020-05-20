@@ -4,8 +4,8 @@ import api from '../../services/api';
 import { Link } from 'react-router-dom';
 import './style.css'
 
-const key_api = '3cnwPgyGfWgVkZ5UhUvqdlc1qL-kBR4PM3xYQr_Ipa4';
-let query = "asia"
+const key_api = 'Your_Key';
+let query = "gamer"
 export default class Main extends Component {
   state = {
     photos: []
