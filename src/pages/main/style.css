@@ -32,6 +32,12 @@
     overflow: hidden;
     background-color: #eee;
 }
+.card_body_wide {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #eee;
+}
 .card_body img {
     width: 100%;
     height: 100%;
@@ -63,5 +69,17 @@
     color: #999;
 }
 .media_body a:hover {
+    text-decoration: none;
+}
+
+.voltar {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: none;
+    margin-top: 10px;
+    color: #767676;
+    font-weight: bold;
+    font-size: 20px;
     text-decoration: none;
 }
