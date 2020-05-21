@@ -4,7 +4,6 @@ import api from '../../services/api';
 import { Link } from 'react-router-dom';
 import './style.css'
 
-const key_api = 'Your_Key';
 let query = "gamer"
 export default class Main extends Component {
   state = {
@@ -15,7 +14,7 @@ export default class Main extends Component {
     this.loadImages();
   }
   loadImages = async () => {
-    const response = await api.get(`search/photos?query=${query}&client_id=${key_api}`);
+    const response = await api.get(`search/photos?query=${query}&client_id=${process.env.REACT_APP_ACCESS_KEY_UNSPLASH}`);
     console.log(response.data)
     this.setState({ photos: response.data.results });
 

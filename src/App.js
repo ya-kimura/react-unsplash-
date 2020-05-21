@@ -3,12 +3,12 @@ import Routes from './routes';
 import './styles.css';
 
 import Header from './components/Header';
-//import Search from './components/Search';
-//import Main from './pages/main';
+import Search from './components/Search';
 
 const App = () => (
   <div className="App">
     <Header />
+    <Search />
     <Routes />
   </div>
 )

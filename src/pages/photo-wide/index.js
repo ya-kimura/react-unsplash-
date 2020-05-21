@@ -23,8 +23,7 @@ export default class Photos extends Component {
 
     async componentDidMount() {
         const { id } = this.props.match.params;
-        const key_api = 'Your_Key';
-        const response = await api.get(`/photos/${id}?client_id=${key_api}`);
+        const response = await api.get(`/photos/${id}?client_id=${process.env.REACT_APP_ACCESS_KEY_UNSPLASH}`);
 
         this.setState({ photo: response.data });
     }
