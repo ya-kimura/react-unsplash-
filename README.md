@@ -3,7 +3,7 @@
 
 O objetivo deste projeto é aplicar conceitos básicos da biblioteca React como uso de componentes, rotas e consumo de api. 
 
-> Este app foi criado usando a útima versão do React através do [Create React App](https://github.com/facebook/create-react-app) e consumindo a api do [Unsplash](https://unsplash.com/developers). 
+> Este app foi criado usando a útima versão do React através do [Create React App](https://github.com/facebook/create-react-app) consumindo a api do [Unsplash](https://unsplash.com/developers). 
 
 ### Como iniciar este projeto?
 
